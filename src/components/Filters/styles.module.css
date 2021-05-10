@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  grid-area: filters;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  background-color: var(--gray-background);
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.07);
+  z-index: 10;
+}
+
+.tabs-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  min-height: 50px;
+}

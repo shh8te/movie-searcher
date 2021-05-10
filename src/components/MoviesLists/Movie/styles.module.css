@@ -1,0 +1,48 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  max-height: 510px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.poster {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 11px;
+}
+
+.vote-average {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 30px;
+  background-color: var(--accent-blue);
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--gray-background);
+  font-weight: bold;
+  border-radius: 4px;
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.title {
+  width: 100%;
+  height: 46px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+  color: var(--gray-text);
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

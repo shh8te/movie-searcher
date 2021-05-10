@@ -1,0 +1,8 @@
+.layout {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "filters"
+    "main"
+    "footer";
+}
